@@ -1,0 +1,32 @@
+{
+  "name": "mega_hack_women_website",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiviaBrandao/mega_hack_women_website.git"
+  },
+  "author": "Lívia Brandão",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiviaBrandao/mega_hack_women_website/issues"
+  },
+  "homepage": "https://github.com/LiviaBrandao/mega_hack_women_website#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.2",
+    "express": "^4.17.1",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "marko": "^4.23.2",
+    "method-override": "^3.0.0",
+    "mssql": "^6.2.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.4"
+  }
+}
